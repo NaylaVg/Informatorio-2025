@@ -10,3 +10,16 @@
 # E- Al finalizar, el programa debe mostrar los resultados con la cantidad de votos que recibió
 # cada candidato
 # }
+
+votacion = []
+
+for i in range(3):
+    nombre: input(f"Ingrese su nombre: ")
+    voto: input(f"Ingrese el candidato que quiere votar: ")
+    votacion = [nombre, voto]
+
+buscar_nombre = (f"Ingrese su nombre: ")
+if buscar_nombre in votacion:
+    votacion[buscar_nombre] = (nombre)
+    print(f"¡Su nombre ya se encuentra registrado!, {votacion})
+          

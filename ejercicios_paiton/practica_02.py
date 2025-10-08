@@ -6,9 +6,10 @@
 colores = ["rojo", "azul", "verde", "rojo", "azul", "rojo"]
 
 cantidad_rojo = colores.count("rojo")
-print("cantidad_rojo")
+print("cantidad_rojo", cantidad_rojo)
 
 indice_verde = colores.index("verde")
-print("indice_verde")
+print("indice_verde", indice_verde)
 
-
+colores[indice_verde] = "amarillo"
+print("Lista final", colores)
